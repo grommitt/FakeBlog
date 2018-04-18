@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link rel="stylesheet" href="E:\DojoAssignments\WebFundamentals\CSS\mystyle.css">
+    <title>Fake blog</title>
+    <meta name="description" content="This blog is a video of the California-based metalcore band, Silent Planet performing at the Chain Reaction in Anaheim, CA." >
+  </head>
+  <body>
+    <div id="video-info">
+        <h1>Silent Planet</h1>
+        <video width="600" height="400" poster="spalbumart.jpg" controls>
+            <source src="E:/SPatChainReaction.mp4">
+            <source src="movie.mp4">
+        </video>
+        <p>Silent Planet at Chain reaction. Approx. 1 hour</p>
+    </div>
+    
+    <div id="table_info">
+        <table>
+            <thead>
+                <tr>
+                    <th>Likeness:</th>
+                    <th>Underoath</th>
+                    <th>Invent, Animate</th>
+                    <th>La Dispute</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sound</td>
+                    <td>Voice</td>
+                    <td>Heaviness</td>
+                    <td>Not similar</td>
+                </tr>
+                <tr>
+                    <td>Lyrics</td>
+                    <td>Somewhat</td>
+                    <td>Similar</td>
+                    <td>Very Similar</td>
+                </tr>
+                <tr>
+                    <td>Genre</td>
+                    <td>Metalcore</td>
+                    <td>Djent</td>
+                    <td>Emo</td>
+                </tr>
+    
+            </tbody>
+        </table>
+    </div>
+
+    <div id="songs">
+        <h2>Suggested Songs</h2>
+        <ul>
+            <li>Native Blood</li>
+            <li>First Father</li>
+            <li>Nervosa</li>
+        </ul>
+        <a href="https://www.youtube.com/watch?v=QJCzMqwuJW0">Click here to see the Nervosa lyric video!</a>
+
+    </div>
+
+    <div id="form_info">
+        <form action="process.php" method="post">
+            <p>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="value from-rainbow">
+            </p>
+            <p>
+            <label for="yesemails">Yes, please send me lots of emails</label>
+            <input type="radio" id="yesemails" name="yesemails" value="yesemails">
+
+            <label for="noemails">No, please do not send me any emails</label>
+            <input type="radio" id="noemails" name="noemails" value="noemails">
+            </p>
+            <p>
+            <label for="reference">How did you hear about us?</label>
+                <select name="reference">
+                    <option value="Facebook">Facebook</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p> 
+            <input type="submit" value="Submit">   
+        </form>
+    </div>
+  </body>
+</html>
